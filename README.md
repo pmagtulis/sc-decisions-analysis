@@ -9,7 +9,7 @@ This repository contains notebooks that clean and analyze scraped information fr
 |file name|contents|
 |---|---|
 |**marcos-cases**|searches Supreme Court decisions in cases involving the Marcoses| 
-|**sc-cases**|analyzes the over 25,000 Supreme Court decisions for trends, etc.|
+|**sc-cases**|analyzes the nearly 30,000 Supreme Court decisions for trends, etc.|
 
 # Definition of terms
 
