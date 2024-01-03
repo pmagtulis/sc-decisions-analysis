@@ -1,4 +1,4 @@
-# sc-cases-analysis
+# sc-decisions-analysis
 
 # What is this?
 
