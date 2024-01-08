@@ -1,0 +1,188 @@
+html,
+body {
+  font: 'Roboto';
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tall img {
+  margin: 0 auto;
+  display: block;
+  max-width: 50%;
+}
+
+.title {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: auto;
+  color: #333333;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.byline {
+  text-align: center !important;
+  justify-content: center;
+  position: relative;
+  margin-bottom: auto;
+  color: #333333;
+  font-size: 16px;
+}
+
+.first-letter {
+  font-size: 55px;
+  line-height: 55px;
+  float: left;
+}
+
+.colored_text {
+  color:#865b9d;
+}
+
+.caption {
+  font-size: 11px;
+}
+
+.debt {
+  border-bottom: 5px solid #ffa600;
+}
+
+.local {
+  border-bottom: 3px solid #bc1980;
+}
+
+.foreign {
+  border-bottom: 3px solid #ffa600;
+}
+
+.footer_image {
+  background-image: url('https://pmagtulis.github.io/sona-story/assets/footer_xl.png');
+  height: 30px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+.footer_container {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  margin-right: 44%;
+  margin-left: 44%;
+}
+
+/* When it's less than 500 pixels wide */
+
+@media only screen and (max-width: 700px) and (min-width: 510px) {
+  
+}
+
+/* When it's less than 500 pixels wide */
+
+@media only screen and (max-width: 500px) and (min-width: 300px) {
+
+  .title {
+    text-align: center !important;
+    justify-content: center;
+    position:absolute;
+    color: #212529;
+    font-size: 22px;
+    font-weight: bold;
+    background: #ffffff
+  }
+
+  .tall-mobile .title {
+    top: 250;
+    left:23%
+  }
+
+  .byline {
+    text-align: center !important;
+    justify-content: center;
+    position:absolute;
+    color: #212529;
+    font-size: 16px;
+    background: #ffffff
+  }
+
+  .first-letter {
+    font-size: 50px;
+    line-height: 40px;
+    float: left;
+    text-indent: 0;
+  }
+
+  .tall-mobile .byline {
+    top: 380;
+    left:23%
+  }
+
+  .debt {
+    border-bottom: 3px solid #ffa600;
+  }
+
+  .tall-mobile {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .tall {
+    display: none;
+  }
+
+  .spread-text {
+    display: none;
+  }
+  
+  .tall-mobile img {
+    margin: 0 auto;
+    display: block;
+    max-width: 100%;
+  }
+  
+  .spread-text-mobile {
+    height: 100%;
+    width: 100%;
+    left: 20;
+    top:10;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    /* You can also do this one */
+    /* justify-content: space-between; */
+  }
+
+  .spread-text-mobile, p:nth-child(2) {
+    top:200;
+  }
+  
+  .spread-text-mobile p {
+    font-size: 16px;
+    max-width: 300px;
+    text-align:left;
+    margin: 0 auto;
+    background: rgba(204, 204, 204, 0.4);
+    width: 100%;
+    padding: 1em;
+  }
+  
+
+  .footer_container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-right: 25%;
+    margin-left: 25%;
+  }
+
+  html, body {
+    overflow-x: hidden;
+  }
+}
