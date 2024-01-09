@@ -8,6 +8,11 @@ body {
   margin: 0 auto;
 }
 
+a {
+  color: #212529;
+  text-decoration: underline;
+}
+
 .tall img {
   margin: 0 auto;
   display: block;
